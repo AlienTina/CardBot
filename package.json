@@ -1,21 +1,21 @@
 {
-  "name": "kobold",
+  "name": "cardbot",
   "version": "0.0.1",
-  "description": "",
+  "description": "A bot that plays cards",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alekuso/Kobold.git"
+    "url": "git+https://github.com/AlienTina/CardBot.git"
   },
-  "author": "",
+  "author": "AlienTina",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alekuso/Kobold/issues"
+    "url": "https://github.com/AlienTina/CardBot/issues"
   },
-  "homepage": "https://github.com/Alekuso/Kobold#readme",
+  "homepage": "https://github.com/AlienTina/CardBot#readme",
   "dependencies": {
     "discord.js": "^12.5.1",
     "enmap": "^5.8.2",
@@ -24,5 +24,6 @@
     "moment": "^2.29.0",
     "moment-duration-format": "^2.3.2",
     "mongoose": "^5.10.7"
-  }
+  },
+  "devDependencies": {}
 }
