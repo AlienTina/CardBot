@@ -1,0 +1,28 @@
+{
+  "name": "kobold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alekuso/Kobold.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alekuso/Kobold/issues"
+  },
+  "homepage": "https://github.com/Alekuso/Kobold#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "enmap": "^5.8.2",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.6",
+    "moment": "^2.29.0",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^5.10.7"
+  }
+}
