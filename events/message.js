@@ -5,11 +5,9 @@ const prfx = "-";
 module.exports = (app, message) => {
     if(message.author.bot) return;
     if(message.channel.type === "dm") return;
-    console.log(gameManager.isThisServerPlaying(message.guild.id));
-    if(gameManager.isThisServerPlaying(message.guild.id)){
-        gameManager.turn(message.guild.id, message);
-        console.log("this server playin yo");
-    }
+    //if(gameManager.isThisServerPlaying(message.guild.id)){
+        //gameManager.turn(message.guild.id, message);
+    //}
     if(message.content.indexOf(prfx) !== 0) return;
     const args = message.content.slice(prfx.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
