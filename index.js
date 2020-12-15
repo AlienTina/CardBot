@@ -17,7 +17,7 @@ fs.readdir("./events/", (err, files) => {
     });
 });
 
-app.commands = new enmap();
+app.commands = new enmap("commands");
 var getDirectories = function (src, callback) {
     glob("./commands" + '/**/*.js', callback);
   };
